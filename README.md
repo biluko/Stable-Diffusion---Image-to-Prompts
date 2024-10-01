@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/3bde3832-699f-4f73-9e9e-62fd7643dee9)# Stable-Diffusion---Image-to-Prompts
-
+![image](https://github.com/user-attachments/assets/3bde3832-699f-4f73-9e9e-62fd7643dee9)
+# Stable-Diffusion---Image-to-Prompts
 本次竞赛的目标是扭转生成文本到图像模型的典型方向：我们能否创建一个模型，在给定生成的图像的情况下预测文本提示，而不是从文本提示生成图像？您将对包含由 Stable Diffusion 2.0 生成的各种对的数据集进行预测，以了解潜在关系的可逆性。(prompt, image)
 
 首先，在数据预处理阶段，由于缺少训练数据且测试数据完全封闭，我们使用了DiffusionDB数据集，过滤掉文本相似度高于0.8的数据，构建验证集。
